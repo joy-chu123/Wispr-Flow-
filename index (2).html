@@ -920,7 +920,8 @@ function setStatus(state, text) {
 
 async function analyze() {
   const transcript = document.getElementById('transcriptInput').value.trim();
-  const apiKey = document.getElementById('apiKey').value.trim();
+  const apiKey = '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
+';
 
   if (!transcript) return;
   if (!apiKey) { setStatus('error', 'API key required — enter your Anthropic key above'); return; }
